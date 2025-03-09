@@ -9,9 +9,9 @@ A user-friendly and responsive frontend interface for the **Parking Lot Manageme
     - [Admin Features](#admin-features)
     - [Public Features](#public-features)
 3. [Technologies Used](#technologies-used)
-4. [Installation and Setup](#installation-and-setup)
-    - [Backend Setup](#backend-setup)
-    - [Frontend Setup](#frontend-setup)
+4. [Installation and Setup](#installation-and-setup)  
+   - [Docker Setup](#docker-setup)
+   - [Manual Setup (Non-Docker)](#manual-setup)
 
 ---
 
@@ -60,10 +60,18 @@ The **Parking Lot Management** system provides two main roles:
 
 ## Installation and Setup
 
+## Docker setup
+- **Configure:** set up docker in your machine, and change the .env file accordingly
+- **Configure:** configure database setting and email setting in case_study_leaves/Backend-django/myProject/config.py
+- **Command:** From the root directory (case_study_leaves):
+   ```bash  
+   docker-compose up --build
+   
 1. **Clone the Repository:**
    ```bash
    git clone https://git.beehyv.com/beehyv/training/2024_batch_3/prashant-singh/parking-lot
 
+## Manual Setup
 ## Backend setup
 
 2. **Setup and initialize backend:**
@@ -72,6 +80,7 @@ The **Parking Lot Management** system provides two main roles:
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
+   python manage.py migrate
    python manage.py runserver
 ## Frontend setup
 3. **Setup and initialize frontend:**
