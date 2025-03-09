@@ -1,0 +1,20 @@
+.assigncard label{
+    font-size: 0.9rem !important;
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.2rem;  
+}
+.assigncard input{
+    font-size: 0.9rem !important;
+}
+.assigncard select{
+    font-size: 0.9rem !important;  
+}
+.assigncard{
+    box-shadow: rgba(121, 121, 121, 0.15) 0px 0px 20px, rgba(133, 133, 133, 0.1) 0px 0px 15px;
+    overflow: hidden;
+}
+.assigncard p{
+    color: red;
+    font-size: 0.75rem;
+    margin:0;
+}

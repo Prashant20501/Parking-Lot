@@ -1,0 +1,35 @@
+.navbar{
+    background-color: rgb(170, 220, 255);
+    border: 2px solid rgb(62, 139, 255);
+    font-size: 1.3rem !important;
+}
+.navbar a:hover{
+    scale: 1.005;
+    cursor: pointer;
+    color:blue;
+    text-shadow: 1px 1px 1px rgb(166, 222, 255);
+}
+
+.navbar a.active{
+    font-weight: bold !important;
+}
+.navbar .field{
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width:6rem;
+    margin-top: 5px;
+    color: rgb(66, 66, 66);
+    background-color:rgb(153, 153, 153,0.2);
+}
+.navbar .field:hover{
+    background-color: gray !important;
+    color: white;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: #ccc; 
+    color: #999; 
+    cursor: not-allowed; 
+    opacity: 0.4; 
+  }

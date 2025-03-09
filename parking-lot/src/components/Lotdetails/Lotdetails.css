@@ -1,0 +1,24 @@
+.lot{
+    z-index: 10;  
+    top: 43% !important;
+    width: 300px !important; 
+    border-radius: 0.6rem !important;
+    box-shadow: rgba(121, 121, 121, 0.15) 0px 0px 20px, rgba(133, 133, 133, 0.1) 0px 0px 15px;
+}
+.lot h4{
+    text-shadow: -2px 0px 2px rgba(97, 97, 97, 0.57);
+    padding: 0.5rem;
+}
+.lot-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    z-index: 1000;
+  }
+.lot span.num{
+    padding: 0.2rem;
+}

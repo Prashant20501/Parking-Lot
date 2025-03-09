@@ -1,0 +1,50 @@
+.historyboard label{
+    font-size: 0.9rem !important;
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.2rem;  
+}
+.historyboard div{
+    overflow: scroll;
+}
+.historyboard input{
+    font-size: 1rem !important;
+}
+.historyboard p{
+    color: red;
+    font-size: 0.75rem;
+    margin:0;
+}
+.historyboard .tablecontainer{
+    flex-grow:1.25;
+}
+.historyboard .tablecontainer .card{
+    box-shadow: rgba(121, 121, 121, 0.15) 0px 0px 20px, rgba(133, 133, 133, 0.1) 0px 0px 15px;
+    overflow: hidden;
+    border-radius: 0.4rem;
+}
+.historyboard .formcontainer{
+    flex-grow: 0.5;
+    overflow: hidden;
+    border-radius: 0.4rem;
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: rgba(121, 121, 121, 0.15) 0px 0px 20px, rgba(133, 133, 133, 0.1) 0px 0px 15px;
+}
+.historyboard .formcontainer form{
+    overflow: hidden;
+    border-radius: 0.4rem;
+}
+@media(max-width:450px){
+    .historyboard .card-body{
+        padding: 0 !important;
+    }
+    .historyboard > div {
+        width: 100vw !important;
+    }
+    .historyboard .formcontainer{
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .historyboard th,td{
+        padding: 2px !important;
+    }
+}

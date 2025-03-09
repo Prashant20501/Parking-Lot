@@ -1,0 +1,7 @@
+.signupbox > div{
+    width:500px;
+    overflow: hidden;
+    border-radius: 0.7rem;
+    margin-top: 2vh;
+    box-shadow: rgba(121, 121, 121, 0.25) 0px 10px 10px, rgba(133, 133, 133, 0.25) 0px 10px 10px;
+}

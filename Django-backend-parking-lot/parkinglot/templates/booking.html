@@ -1,0 +1,17 @@
+<html>
+    <body>
+        {% if messages %}
+        <ul>
+            {%for message in messages%}
+                <li>{{message}}</li>
+            {%endfor%}
+        </ul>
+        {% endif %}
+        <h1>Pre-Booking:</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{form}}
+            <button type="submit">submit</button>
+        </form>
+    </body>
+</html>
