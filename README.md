@@ -66,10 +66,6 @@ The **Parking Lot Management** system provides two main roles:
 - **Command:** From the root directory (case_study_leaves):
    ```bash  
    docker-compose up --build
-   
-1. **Clone the Repository:**
-   ```bash
-   git clone https://git.beehyv.com/beehyv/training/2024_batch_3/prashant-singh/parking-lot
 
 ## Manual Setup
 ## Backend setup
